@@ -112,6 +112,8 @@
 /******************************************************************************/
 /*! @name        Compiler switch macros Definitions                */
 /******************************************************************************/
+#define BMM150_USE_FLOATING_POINT // added
+
 #ifndef BMM150_USE_FLOATING_POINT /*< Check if floating point (using BMM150_USE_FLOATING_POINT) is enabled */
 #ifndef BMM150_USE_FIXED_POINT /*< If floating point is not enabled then enable BMM150_USE_FIXED_POINT */
 #define BMM150_USE_FIXED_POINT
